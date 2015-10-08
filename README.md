@@ -1,2 +1,2 @@
 # django-project
-Base project configuration for django
+Base django project configuration
