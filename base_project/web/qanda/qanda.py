@@ -10,6 +10,6 @@ def index(request):
 
     template = loader.get_template('qanda/qanda_index.tpl')
     context = RequestContext(request, {
-         'latest_question_li': [],
+         'title': 'Q & A !!!',
      })
     return HttpResponse(template.render(context))

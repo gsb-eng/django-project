@@ -10,6 +10,6 @@ def index(request):
 
     template = loader.get_template('news/news_index.tpl')
     context = RequestContext(request, {
-        'latest_question_li': [],
+        'title': 'News !!!',
     })
     return HttpResponse(template.render(context))

@@ -10,6 +10,6 @@ def index(request):
 
     template = loader.get_template('admin/admin_index.tpl')
     context = RequestContext(request, {
-        'latest_question_li': [],
+        'title': 'Admin !!!',
     })
     return HttpResponse(template.render(context))
