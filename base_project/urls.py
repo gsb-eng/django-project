@@ -19,4 +19,8 @@ from django.conf.urls import include, url
 
 urlpatterns = [
     url(r'^events/', include('base_project.web.events.urls')),
+    url(r'^news/', include('base_project.web.news.urls')),
+    url(r'^qanda/', include('base_project.web.qanda.urls')),
+    url(r'^admin/', include('base_project.web.admin.urls')),
+
 ]
