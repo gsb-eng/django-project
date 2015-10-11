@@ -1,2 +1,2 @@
-# django-project
-ore should contain all the models.
+ 
+# Core should contain all the models.
